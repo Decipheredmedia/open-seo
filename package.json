@@ -38,6 +38,7 @@
     "release:notes": "node scripts/release-notes.mjs",
     "release:publish": "node scripts/publish-release.mjs",
     "sync-plugin-skills": "node scripts/sync-plugin-skills.mjs",
+    "ollama:detect": "node scripts/ollama-model-detect.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ci": "vitest run --reporter=dot",
